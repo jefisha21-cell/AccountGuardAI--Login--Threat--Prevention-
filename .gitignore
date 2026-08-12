@@ -1,0 +1,37 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+*.pkl
+
+# ─── Logs ─────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── Node / Frontend ──────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/*.local
+
+# ─── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Editor ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# ─── Keep ML models tracked (required for app to run) ────
+# backend/models/*.pkl  <-- intentionally NOT ignored
